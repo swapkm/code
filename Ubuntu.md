@@ -4,50 +4,14 @@ Install filename.run
 `sudo ./filenam*.run`
 `unzip file.zip`
 `unzip file.zip -d myfolder`
+`zip -r my_archive.zip my_folder/`
+`zip -r archive-name.zip folder-name`
+`rm -r az` - remove folder which contains files
+`zip -r my_directory.zip /path/to/my_directory`
 
 ### If want to rename directory
 `mv oldfolder newfolder`
 `sudo dpkg -i filemane-*.deb`
-
-## Docker
-
-----------------------------------------------------
-### Start-Stop Docker
-`sudo service docker start`
-`sudo service docker stop`
-
-### Pull Image From DockerHub
-`sudo docker pull wordpress`
-
-### See All Docker Imagees
-`sudo docker images`
-
-### Remove Docker Images
-`sudo docker rmi 45458imageid57459
-`sudo docker rmi imagename`
-
-### Remove all images at onece
-`sudo docker image prune`
-
------------------------------------------------------
-### List All Curent Running Docker Container
-`sudo docker ps`
-`sudo docker ps -a`
-
-### Start Docker Container Using Name or ID
-`sudo docker start nameofcontainer`
-`sudo docker start 8473895containerid795`
-
-### Stop Container
-`sudo docker stop 75498conarinerid8547
-`sudo docker stop nameofcontainer`
-
-### Remove Docker Container
-`sudo docker rm 12364485containerid987459`
-`sudo docker rm name`
-
-### Remove all at once
-`sudo docker container prune`
 
 ### Wordpress
 `sudo docker run -p 8080:80 -v /home/swapkam/wordpress:/var/www/html -d --name my-wordpress-container wordpress`
@@ -72,9 +36,6 @@ Install filename.run
 - git remote add origin https://github.com/swapkm/code.git
 - git push -u origin main
 
-## Apache2
-`sudo systemctl start apache2`
-`sudo systemctl status apache2`
 # Xampp
 `sudo /opt/lampp/manager-linux-x64.run`
 `sudo /opt/lampp/lampp start`
@@ -84,9 +45,10 @@ Install filename.run
 `sudo /opt/lampp/lampp status`
 
 ## Apache2
-- sudo systemctl start apache2
-- sudo systemctl stop apache2
-- sudo systemctl enable apache2
-- sudo systemctl disable apache2
+`sudo systemctl start apache2`
+`sudo systemctl status apache2`
+`sudo systemctl stop apache2`
+`sudo systemctl enable apache2`
+`sudo systemctl disable apache2`
 
 
