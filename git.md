@@ -55,8 +55,9 @@ If there are any conflicts between the main branch and your feature branch, Git 
 # 7. Push Changes to Remote Repository
 Once the merge is done and your feature is successfully integrated into main, push the changes to the remote repository (e.g., GitHub):
 
-
 `git push origin main`
+
+`git push -u origin main`
 
 You should also push your feature branch (optional):
 
@@ -81,3 +82,15 @@ If you’re working in a team or want to review your changes before merging, use
 `git push origin feature/new-feature-name`
 
 Open a pull request in GitHub from the feature/new-feature-name branch to main. The pull request can be reviewed, discussed, and tested before merging.
+
+
+
+`git status`
+
+`git pull`
+
+`git push`
+
+`git tag v1.0.0`
+
+`git push --tags`
