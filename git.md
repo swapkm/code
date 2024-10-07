@@ -31,7 +31,7 @@ Before merging it into main, ensure the feature works as expected. Since you’r
 # 5. Merge to main When Feature Is Ready
 If everything works and you’re satisfied with the feature, you can merge it back into main. First, switch to the main branch:
 
-Switch to the main branch:
+## Switch to the main branch:
 
 `git checkout main`
 
@@ -39,12 +39,12 @@ Then, merge the feature branch into main:
 
 ## Merge the feature branch:
 
-~git merge feature/new-feature-name~
+`git merge feature/new-feature-name`
 
 # 6. Handle Conflicts (if any)
 If there are any conflicts between the main branch and your feature branch, Git will notify you. You will need to manually resolve the conflicts in the affected files. After resolving the conflicts:
 
-##Stage the resolved files:
+## Stage the resolved files:
 
 `git add <file>`
 
